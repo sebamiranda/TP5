@@ -1,0 +1,166 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: #628a6b;
+	color:#ffffff;
+}
+
+#contenedor{
+	width:960px;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:2px;
+}
+
+#bloque{
+  display: inline-block;
+  width: 29%;
+  height: 300px;  
+  border-top: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  border-left: 5px solid #ffffff;
+}
+
+.box img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .box img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+header{
+	height:150px;
+	background-image: url('img/laliga1.jpg') no-repeat;
+}
+
+header h1{
+	font-size:50px;
+	text-align: center;
+	line-height: 150px;
+
+}
+
+nav{
+	background: #408080;
+	height: 60px;
+	font
+}
+
+nav h2{
+	font-size:40px;
+	text-align: center;
+	line-height: 60px;
+}
+
+#contenido{
+	width:600px;
+	
+	background: #408080 ;
+	float: left;
+	margin-top:10px;
+	margin-bottom:10px;
+	overflow: scroll;
+}
+#contenido2{
+	width:600px;
+	
+	background: #408080 ;
+	float: left;
+	margin-top:10px;
+	margin-bottom:10px;
+	overflow: scroll;
+	
+}
+
+
+
+
+
+aside{
+	width:350px;
+	height: auto;  
+	background:  #408080;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:right;
+}
+
+footer{
+	background: black;
+	height:40px;
+	clear: both;
+}
+
+footer h2{
+	text-align: center;
+	text-size:30px;
+}
+
+footer .sociales{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+footer .sociales a{
+	font-size :50 px;
+	color: #fff;
+
+
+}
+	
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding:10px;
+}
+
+
+table {     
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    
+    margin: 30px;     
+    width: 480px; 
+    text-align: center;    
+   
+    }
+
+th {     
+	font-size: 13px;     
+	font-weight: normal;     
+	padding: 8px;     
+	background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+    }
+
+td {    
+	padding: 8px;     
+	background: #e8edff;     
+	border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; }
+
+tr:hover td { 
+	background: #d0dafd; 
+	color: #339; 
+	}
+
+img.alineadoTextoImagenArriba{
+  float: left;  
+}
+.aside {
+	text-align: center;
+	} 
+

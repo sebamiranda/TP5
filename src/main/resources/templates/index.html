@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Liga de Futbol</title>
+		<link rel="stylesheet" href="css/estilos.css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	</head>
+	
+	<body>
+		<div id="contenedor">
+			<header>
+				<h1>Liga de Futbol Profesional</h1>
+			</header>
+			
+			<nav>
+				<ul>
+					<li ><a style="color:#ffffff" href="index.html">Home</a></li>
+					<li ><a style="color:#ffffff" href="Fixture y Resultado.html" target="_blank">Fixture y Resultado</a></li>
+					<li ><a style="color:#ffffff" href="Equipos.html" target="_blank">Equipos</a></li>
+				</ul>
+				<div id="welcome">
+					<h4 th:text = "'Bienvenido!' + ${usuario} "></h4>
+				</div>
+			</nav>
+			
+			<section id="contenido">
+				<h2>Noticias</h2>
+				
+				<div id="bloque">
+				
+				<div  class="box" ><img src="img/mesi.jpg"/></div>
+				<p> What is Lorem Ipsum?Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy te</p>
+				</div>
+				<div id="bloque">
+				
+				<div  class="box" ><img src="img/imaen_2.jpg"/></div>
+				<p> What is Lorem Ipsum?Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy te</p>
+				</div>
+				<div id="bloque">
+				
+				<div  class="box" ><img src="img/imagen_3.jpg"/></div>
+				<p> What is Lorem Ipsum?Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy te</p>
+				</div>
+				
+			</section>
+			
+			<aside>
+				<h2>Auspiciantes</h2>
+				<div class="aside" ><img src="img/nike.jpg" width="200" height="100"/></div>
+				<div  class="aside" ><img src="img/pepsi.jpg"  width="200" height="100"/></div>
+				<div  class="aside" ><img src="img/marcaVW.jpg"  width="200" height="100"/></div>
+			
+			</aside>
+			
+			<footer>
+			<div class="sociales">
+			<a><i class="fab fa-facebook-square"></i></a>
+			<a><i class="fab fa-twitter-square"></i>  </a>
+			<a>Avda.Pedro Ortiz de Zarate N° 455- tel 3884789555</a>
+			</div>
+				
+			</footer>
+		</div>
+	</body>
+</html>
